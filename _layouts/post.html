@@ -1,0 +1,26 @@
+
+{% include _head.html %}
+
+{%include _header.html %}
+
+<article class="post overhide mb2">
+  <div class="fl pos-rel">
+    <img src="{{ page.image }}" class="max-w100 mr2 {% if page.sold %}fade{% endif %}" />
+    {% if page.sold %}
+      <div class="pos-abs fill pt3 center h1 sans bold caps">Sold</div>
+    {% endif %}
+  </div>
+
+  <h1 class="h3 sans caps">{{ page.title }}</h1>
+  <h2>{{ page.price }} <span class="p sans caps">(OBO)</span></h2>
+  <p>Originally: {{ page.original-price }}</p>
+  <p class="mb2">
+    {{ page.content }}
+  </p>
+
+  <p>Contact me to purchase</p>
+  <a href="{{ site.baseurl }}/contact" class="btn btn-blue sans caps">Contact Me</a>
+
+</article>
+
+{% include _footer.html %}

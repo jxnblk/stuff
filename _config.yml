@@ -1,0 +1,13 @@
+name: "Stuff"
+description: "For Sale"
+author: "Jxnblk"
+
+# url: "http://jxnblk.github.com/stuff"
+# baseurl: "/stuff"
+url: "http://localhost:4000"
+baseurl: ""
+
+exclude: [README.md, Rakefile]
+paginate: 16
+permalink: pretty
+future: true;

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="overhide">
+{% if site.posts %}
+{% for post in site.posts %}
+<article class="grid mb2">
+  <a href="{{ site.baseurl }}{{ post.url }}" title="{{post.title}}" class="db pos-rel">
+    <img src="{{ post.image }}" class="w100 {% if post.sold %}fade{% endif %}" />
+    {% if post.sold %}
+      <div class="pos-abs fill pt3 center h1 sans bold caps">Sold</div>
+    {% endif %}
+    <h2 class="p {% if post.sold %}fade{% endif %} sans caps">{{ post.title }} {{ post.price }}</h2>
+  </a>
+</article>
+{% endfor %}
+{% endif %}
+</div>
