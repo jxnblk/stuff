@@ -1,3 +1,3 @@
-# Jekyll Gallery Demo
+# Stuff
 
-Just demonstrating how to use custom image variables for a Jekyll image gallery
+I'm moving, and I prefer to travel light. So I'm selling all my stuff.
