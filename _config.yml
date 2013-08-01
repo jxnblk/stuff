@@ -7,5 +7,5 @@ baseurl: "/stuff"
 
 exclude: [README.md, Rakefile]
 paginate: 32
-permalink: pretty
+permalink: /:title
 future: true;
