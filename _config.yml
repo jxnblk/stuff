@@ -9,5 +9,5 @@ baseurl: ""
 
 exclude: [README.md, Rakefile]
 paginate: 16
-permalink: pretty
+permalink: /:title
 future: true;
